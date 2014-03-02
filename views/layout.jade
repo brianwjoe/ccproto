@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
+    script(src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js')
+
+  body
+   div.navbar
+    div.container
+     div.navbar-inner
+      a(href='/').brand= title
+       ul.nav
+        li
+         a(href='/about') About    
+        li
+         a(href='/services') Services
+        li 
+         a(href='/search') Search
+
+    block content

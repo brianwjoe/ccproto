@@ -1,0 +1,41 @@
+extends layout
+
+block content
+
+ div.navbar
+  div.container
+   div.navbar-inner
+    a.brand= title
+    ul.nav
+     li
+      a(href='#') About    
+     li
+      a(href='#') Services
+     li 
+      a(href='#') Compare
+
+   div.jumbotron
+    h1 Your Zip code is
+    h1 92620
+    h2 Local offers for Cable and Internet
+    p Enter Your Zip Code to get Started 
+    div.formgroup
+     input(type='text' class='form-control' placeholder='zip')
+     button(type='submit' class='btn btn-primary btn-lg') Submit
+
+   div.row
+    div.col-md-4 
+     h2 Easy
+     p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    div.col-md-4
+     h2 Simple 
+     p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    div.col-md-4
+     h2 Social
+     p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+
+   footer
+    p copyright 2013 cordcutter
+
+
+ 
